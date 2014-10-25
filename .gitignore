@@ -3,4 +3,3 @@ output/
 .sqlmap_history
 traffic.txt
 *~
-udf/
