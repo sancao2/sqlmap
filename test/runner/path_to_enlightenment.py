@@ -6,7 +6,6 @@
 import unittest
 
 from koans.about_agent import AboutAgent
-from koans.about_datatype import AboutDatatype
 from koans.about_data import AboutData
 
 def koans():
@@ -14,7 +13,6 @@ def koans():
     suite = unittest.TestSuite()
     loader.sortTestMethodsUsing = None
     suite.addTests(loader.loadTestsFromTestCase(AboutAgent))
-    suite.addTests(loader.loadTestsFromTestCase(AboutDatatype))
     suite.addTests(loader.loadTestsFromTestCase(AboutData))
 
     return suite
